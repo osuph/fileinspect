@@ -1,0 +1,18 @@
+<Configuration>
+ <MappedFolders>
+    <MappedFolder> 
+        <HostFolder>%~PS1%\tools\</HostFolder> 
+        <SandboxFolder>C:\tools\</SandboxFolder> 
+        <ReadOnly>false</ReadOnly> 
+    </MappedFolder>
+    <MappedFolder> 
+        <HostFolder>%~PS1%\staging\</HostFolder> 
+        <SandboxFolder>C:\staging\</SandboxFolder> 
+        <ReadOnly>false</ReadOnly> 
+    </MappedFolder>
+  </MappedFolders>
+  <vGPU>Enable</vGPU>
+  <ClipboardRedirection>Enable</ClipboardRedirection>
+  <MemoryInMB>2048</MemoryInMB>
+  <Command>explorer.exe C:\tools\; explorer.exe C:\staing\</Command>
+</Configuration>
